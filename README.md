@@ -1,1 +1,3 @@
 # Picking-Numbers-Algo
+
+This program solves the problem, where the goal is to find the length of the longest subarray in which the absolute difference between any two elements is at most 1. It first counts the frequency of each number in the input list using an array of size 101 (since the values are assumed to be between 0 and 100). Then, it iterates through the frequency array and for each number `i`, it calculates the sum of frequencies of `i` and `i - 1`, representing a potential valid subarray. The maximum such sum found during the loop is returned as the result. The program reads input from the user and writes the result to a designated output stream.
